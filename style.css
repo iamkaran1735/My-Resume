@@ -178,6 +178,12 @@ ul li{
 .btn-container{
     text-align:center;
 }
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
 
 /* RESPONSIVE */
 
